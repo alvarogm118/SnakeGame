@@ -1,0 +1,26 @@
+#!/bin/sh
+
+SRC="/c/home/projects/doc/adsw/2018/src/es/upm/dit/adsw/ej3"
+set +x
+
+cp $SRC/Apple.java .
+cp $SRC/AppleGenerator.java .
+cp $SRC/Ball.java .
+cp $SRC/BallGenerator.java .
+cp $SRC/Game.java .
+cp $SRC/Nap.java .
+cp $SRC/Play.java .
+cp $SRC/Puntuacion.java .
+cp $SRC/RW_Monitor_0.java .
+cp $SRC/Screen.java .
+cp $SRC/Serpent.java .
+cp $SRC/StressTest1.java .
+cp $SRC/StressTest2.java .
+cp $SRC/StressTest3.java .
+cp $SRC/TouchPadListener1.java .
+cp $SRC/TouchPadListener2.java .
+cp $SRC/XY.java .
+cp -r $SRC/imgs
+
+vi Puntuacion.java
+
